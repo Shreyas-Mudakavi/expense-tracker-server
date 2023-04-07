@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "expense-tracker-backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shreyas-Mudakavi/expense-tracker-server.git"
+  },
+  "author": "shreyas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shreyas-Mudakavi/expense-tracker-server/issues"
+  },
+  "homepage": "https://github.com/Shreyas-Mudakavi/expense-tracker-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
